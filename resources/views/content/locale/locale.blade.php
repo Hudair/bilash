@@ -27,6 +27,10 @@
                 <i class="flag-icon flag-icon-fr mr-50"></i>
                 <span>French</span>
               </a>
+              <a class="dropdown-item" href="{{url('lang/ar')}}" data-language="ar">
+                <i class="flag-icon flag-icon-sa mr-50"></i>
+                <span>العربية</span>
+              </a>
               <a class="dropdown-item" href="{{url('lang/de')}}" data-language="de">
                 <i class="flag-icon flag-icon-de mr-50"></i>
                 <span>German</span>
