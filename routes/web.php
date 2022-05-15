@@ -251,7 +251,6 @@ Route::middleware([
 });
 
 Route::group(['middleware' => 'auth:sanctum', 'verified'],function(){
-    Route::get('/', [StaterkitController::class, 'home'])->name('home');
-    .....
-    ....
-  });
+  Route::get('/', [StaterkitController::class, 'home'])->name('home');
+  
+});

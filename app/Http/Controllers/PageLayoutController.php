@@ -42,4 +42,6 @@ class PageLayoutController extends Controller
         $breadcrumbs = [['link' => "/", 'name' => "Home"], ['link' => "javascript:void(0)", 'name' => "Layouts"], ['name' => "Layout Blank"]];
         return view('/content/page-layouts/layout-blank', ['pageConfigs' => $pageConfigs, 'breadcrumbs' => $breadcrumbs]);
     }
+
+  
 }
